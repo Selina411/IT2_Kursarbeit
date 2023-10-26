@@ -42,7 +42,7 @@
 // Funktion zur Berechnung des Volumens einer Kugel
 function berechneKugelVolumen($radius) {
     if ($radius > 0) {
-        return (4/3) * M_PI * pow($radius, 3);
+        return (4/3) * M_PI * pow($radius);
     } else {
         return "Ungültiger Radius (muss größer als 0 sein)";
     }
@@ -57,14 +57,8 @@ function berechneKugelOberflaeche($radius) {
     }
 }
 
-// Beispielaufruf der Funktionen
-$radius = 5;
-$hoehe = 10;
-$seitenlaenge = 4;
-
 $kugelVolumen = berechneKugelVolumen($radius);
 $kugelOberflaeche = berechneKugelOberflaeche($radius);
-
 echo "Volumen der Kugel: $kugelVolumen<br>";
 echo "Oberfläche der Kugel: $kugelOberflaeche<br>";
 ?>

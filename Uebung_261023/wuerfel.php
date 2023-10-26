@@ -71,12 +71,6 @@ function berechneWuerfelOberflaecheninhalt($seitenlaenge) {
         return "Ungültige Seitenlänge (muss größer als 0 sein)";
     }
 }
-
-// Beispielaufruf der Funktionen
-$radius = 5;
-$hoehe = 10;
-$seitenlaenge = 4;
-
 $wuerfelVolumen = berechneWuerfelVolumen($seitenlaenge);
 $wuerfelMantelflaeche = berechneWuerfelMantelflaeche($seitenlaenge);
 $wuerfelOberflaecheninhalt = berechneWuerfelOberflaecheninhalt($seitenlaenge);

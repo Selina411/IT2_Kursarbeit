@@ -5,9 +5,9 @@
   </head>
   <body>
 	  
-	  <a href="seilers/" >Hier geht's zu Sophie</a>
-	  <a href="sschraeder/" >Hier geht's zu Selina</a>
-	  <a href="adueser/" >Hier geht's zu Allegra</a>
+	  <a href="zylinder.php" >Hier geht's zum Zylinder</a>
+	  <a href="kugel.php" >Hier geht's zur Kugel</a>
+	  <a href="wuerfel.php" >Hier geht's zum Würfel</a>
 	  
   </body>
 </html>

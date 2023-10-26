@@ -69,15 +69,8 @@ function berechneZylinderOberflaeche($radius, $hoehe) {
         return "Ungültige Werte (Radius und Höhe müssen größer als 0 sein)";
     }
 }
-
-// Beispielaufruf der Funktionen
-$radius = 5;
-$hoehe = 10;
-$seitenlaenge = 4;
-
 $zylinderVolumen = berechneZylinderVolumen($radius, $hoehe);
 $zylinderOberflaeche = berechneZylinderOberflaeche($radius, $hoehe);
-
 echo "Volumen des Zylinders: $zylinderVolumen<br>";
 echo "Oberfläche des Zylinders: $zylinderOberflaeche<br>";
 ?>
