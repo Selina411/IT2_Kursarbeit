@@ -28,7 +28,6 @@
     <script>
         function berechneWuerfel() {
             const seitenlaenge = parseFloat(document.getElementById("seitenlaenge").value);
-
             if (!isNaN(seitenlaenge)) {
                 const volumen = Math.pow(seitenlaenge, 3);
                 const mantelflaeche = 4 * Math.pow(seitenlaenge, 2);
@@ -74,7 +73,6 @@ function berechneWuerfelOberflaecheninhalt($seitenlaenge) {
 $wuerfelVolumen = berechneWuerfelVolumen($seitenlaenge);
 $wuerfelMantelflaeche = berechneWuerfelMantelflaeche($seitenlaenge);
 $wuerfelOberflaecheninhalt = berechneWuerfelOberflaecheninhalt($seitenlaenge);
-
 echo "Volumen des Würfels: $wuerfelVolumen<br>";
 echo "Mantelfläche des Würfels: $wuerfelMantelflaeche<br>";
 echo "Oberflächeninhalt des Würfels: $wuerfelOberflaecheninhalt<br>";

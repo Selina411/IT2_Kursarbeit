@@ -71,6 +71,7 @@ function berechneZylinderOberflaeche($radius, $hoehe) {
 }
 $zylinderVolumen = berechneZylinderVolumen($radius, $hoehe);
 $zylinderOberflaeche = berechneZylinderOberflaeche($radius, $hoehe);
+
 echo "Volumen des Zylinders: $zylinderVolumen<br>";
 echo "Oberfläche des Zylinders: $zylinderOberflaeche<br>";
 ?>

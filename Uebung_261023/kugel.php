@@ -56,7 +56,6 @@ function berechneKugelOberflaeche($radius) {
         return "Ungültiger Radius (muss größer als 0 sein)";
     }
 }
-
 $kugelVolumen = berechneKugelVolumen($radius);
 $kugelOberflaeche = berechneKugelOberflaeche($radius);
 echo "Volumen der Kugel: $kugelVolumen<br>";
